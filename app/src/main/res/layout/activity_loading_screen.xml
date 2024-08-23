@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadingScreen">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gif_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/loading" />
+        <ImageView
+            android:id="@+id/jet"
+            android:layout_width="149px"
+            android:layout_height="159px"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/jet"
+            />
+
+        <TextView
+            android:id="@+id/loading_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@id/jet"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:fontFamily="@font/mob"
+            android:text="@string/loading"
+            android:textColor="@color/white" />
+
+</RelativeLayout>

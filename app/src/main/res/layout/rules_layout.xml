@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:layout_centerVertical="true"
+    android:background="@android:color/transparent"
+    android:backgroundTint="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/rulesText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rules of the Game"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/mob"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@android:color/transparent"
+        android:background="@android:color/transparent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Click start to start the timer, and try your best to stop at exactly 10.000!
+        \n\nThe twist of the game is that the timer is hidden once you click start.
+        \n \nGood luck on your journey on board!"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/depixek"
+        android:background="@android:color/transparent" />
+
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:backgroundTint="@android:color/transparent"
+        />
+</LinearLayout>
